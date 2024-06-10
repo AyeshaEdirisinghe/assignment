@@ -1,0 +1,102 @@
+/* styles.css */
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+/* Header styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px; /* Fixed height */
+}
+header h3 {
+    margin: 0;
+}
+.button {
+    background-color: white;
+    /* color: #4CAF50; */
+    border: 2px solid #4CAF50;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+.button:hover {
+    /* background-color: #45a049; */
+    color: white;
+}
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+.login-container h2 {
+    margin-top: 0;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+.login-form label {
+    margin-top: 10px;
+}
+.login-form input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.login-form button {
+    /* background-color: #4CAF50; */
+    /* color: white; */
+    /* border: none;
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px; */
+}
+.login-form button:hover {
+    /* background-color: #45a049; */
+}
+#forgotPassword {
+    margin-top: 10px;
+    display: block;
+    text-align: right;
+    color: #4CAF50;
+}
+#forgotPassword:hover {
+    text-decoration: underline;
+}
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    margin: 0;
+}
